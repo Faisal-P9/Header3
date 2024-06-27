@@ -1,8 +1,8 @@
-document.addEventListener("DOMContentLoaded", function(event){
+// document.addEventListener("DOMContentLoaded", function(event){
 
-    // document.addEventListener('readystatechange', function() {
+    document.addEventListener('readystatechange', function() {
 
-      if (document.readyState === 'interactive') {
+      if (document.readyState === 'complete') {
     // Hide the loading overlay and show the content
         document.getElementById('loader').style.display = 'none';
         document.getElementById('allContents').style.display = 'block';
