@@ -9,6 +9,8 @@
         document.getElementById('allContents').style.display = 'block';
 
     // Make the body visible now that everything is loaded
+        document.body.style.visibility = 'visible';
+
       }
 
     // })
